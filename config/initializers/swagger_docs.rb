@@ -2,6 +2,8 @@
 
 Swagger::Docs::Config.register_apis({
     "1.0" => {
-      # Empty -- start with all the defaults
+      api_extension_type: :json,
+      api_file_path: 'public/',
+      base_path: "/"
     }
   })
